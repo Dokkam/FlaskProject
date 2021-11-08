@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% if title %}
+            <title>{{title}}!</title>
+        {% else %}
+            <title>No Name</title>
+        {% endif %}
+    </head>
+    <h1>Welcome {{ name }}, here are top destinations!</h1>
+    <a href="https://www.google.com/">goooogle</a>
+    <body>
+
+    {% block content %}
+    {% endblock %}
+
+    </body>
+</html>
